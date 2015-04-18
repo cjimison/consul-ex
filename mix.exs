@@ -28,7 +28,7 @@ defmodule Consul.Mixfile do
 
   defp deps do
     [
-      {:exjsx, "~> 3.0"},
+      {:exjsx, git: "https://github.com/cjimison/exjsx.git", branch: "master"},
       {:httpoison, "~> 0.6.0"},
     ]
   end
